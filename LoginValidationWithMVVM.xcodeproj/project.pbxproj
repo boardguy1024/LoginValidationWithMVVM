@@ -12,6 +12,7 @@
 		A229CB671F525CE900D51C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A229CB651F525CE900D51C1B /* Main.storyboard */; };
 		A229CB691F525CE900D51C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A229CB681F525CE900D51C1B /* Assets.xcassets */; };
 		A229CB6C1F525CE900D51C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A229CB6A1F525CE900D51C1B /* LaunchScreen.storyboard */; };
+		A229CB741F52610700D51C1B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229CB731F52610700D51C1B /* LoginViewModel.swift */; };
 		F4CD5E267FD526073A305792 /* Pods_LoginValidationWithMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73144B125564D108DDBC69F9 /* Pods_LoginValidationWithMVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		A229CB681F525CE900D51C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A229CB6B1F525CE900D51C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A229CB6D1F525CE900D51C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A229CB731F52610700D51C1B /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E39B3DE6B096E089039E831F /* Pods-LoginValidationWithMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginValidationWithMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginValidationWithMVVM/Pods-LoginValidationWithMVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				A229CB611F525CE900D51C1B /* AppDelegate.swift */,
+				A229CB731F52610700D51C1B /* LoginViewModel.swift */,
 				A229CB631F525CE900D51C1B /* ViewController.swift */,
 				A229CB651F525CE900D51C1B /* Main.storyboard */,
 				A229CB681F525CE900D51C1B /* Assets.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				A229CB641F525CE900D51C1B /* ViewController.swift in Sources */,
 				A229CB621F525CE900D51C1B /* AppDelegate.swift in Sources */,
+				A229CB741F52610700D51C1B /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +385,7 @@
 				A229CB721F525CE900D51C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
