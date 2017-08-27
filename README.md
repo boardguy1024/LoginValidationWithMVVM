@@ -1,4 +1,7 @@
 # About Login Validation with MVVM pattern
+<img src="images/Rx_Logo_M.png" alt="My first tutorial for RxSwift" width="36" height="36"> RxSwift: ReactiveX for Swift
+======================================
+
 ![header](./images/header.png)
 ![tool](https://img.shields.io/badge/tool-xcode8-blue.svg)
 ![language](https://img.shields.io/badge/language-RxSwift-red.svg)
