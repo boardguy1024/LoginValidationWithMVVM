@@ -12,6 +12,5 @@ Model-View-ViewModelアーキテクチャーの理解を深めるため、<br>
 RxSwiftを使ってLoginViewにてのEmailTextFieldとPasswordTexFieldの入力文字数が４文字以上の場合Loginボタンを活性化する
 
 ## スクリーンショット
-![header](./images/input_validation.gif)
 <img src="images/input_validation.gif" width="400">
 
