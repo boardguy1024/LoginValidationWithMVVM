@@ -13,4 +13,5 @@ RxSwiftを使ってLoginViewにてのEmailTextFieldとPasswordTexFieldの入力�
 
 ## スクリーンショット
 ![header](./images/input_validation.gif)
+<img src="images/input_validation.gif" width="400">
 
