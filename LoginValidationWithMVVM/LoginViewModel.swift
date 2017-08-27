@@ -18,7 +18,7 @@ struct LoginViewModel {
         return Observable.combineLatest(emailText.asObservable(), passwordText.asObservable()) {
             (email, password) in
             
-            email.characters.count >= 3 && password.characters.count >= 3
+            email.characters.count >= 4 && password.characters.count >= 4
         }
     }
 }
